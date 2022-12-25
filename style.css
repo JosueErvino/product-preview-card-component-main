@@ -147,8 +147,12 @@ a {
     flex-direction: row;
   }
 
-  .card > section {
+  .card > * {
     width: 50%;
+  }
+
+  .card-description {
+    padding: 32px;
   }
 }
 
