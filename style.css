@@ -29,6 +29,34 @@
   color: var(--very-dark-blue);
 }
 
+body {
+  min-height: 100vh;
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   max-width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  background-color: var(--white);
+  margin: 16px;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
