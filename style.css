@@ -50,7 +50,6 @@ a {
   background-color: var(--white);
   margin: 16px;
   max-width: 400px;
-  max-height: 610px;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
@@ -73,6 +72,7 @@ a {
   padding: 23px 25px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1rem;
 }
 
