@@ -37,6 +37,13 @@ body {
   align-items: center;
 }
 
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 img {
   max-width: 100%;
 }
@@ -56,13 +63,13 @@ a {
   flex-direction: column;
 }
 
-.card-image-picture {
+.card-image {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
 }
 
-.card-image-picture > img {
+.card-image > img {
   object-fit: cover;
   height: auto;
   width: 100%;

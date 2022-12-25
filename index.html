@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -13,46 +14,44 @@
 </head>
 
 <body>
-  <main class="card">
-
-    <section class="card-image">
-      <picture class="card-image-picture">
+  <main>
+    <article class="card">
+      <picture class="card-image">
         <source media="(min-width: 600px)" srcset="images\image-product-desktop.jpg">
         <img src="images\image-product-mobile.jpg" alt="Sample of a perfume">
       </picture>
-    </section>
 
-    <section class="card-description">
-      <div class="card-tag">Perfume</div>
+      <section class="card-description">
+        <span class="card-tag">Perfume</span>
 
-      <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
 
-      <p class="card-text">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
+        <p class="card-text">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-      <div class="card-price">
-        <span class="current">
-          $149.99
-        </span>
-        <span class="original">
-          $169.99
-        </span>
-      </div>
+        <div class="card-price">
+          <span class="current">
+            $149.99
+          </span>
+          <span class="original">
+            $169.99
+          </span>
+        </div>
 
-      <a href="#" class="card-add-button">
-        <img src="images\icon-cart.svg" alt="">
-        <span>Add to Cart</span>
-      </a>
-    </section>
-
+        <a href="#" class="card-add-button">
+          <img src="images\icon-cart.svg" alt="">
+          <span>Add to Cart</span>
+        </a>
+      </section>
+    </article>
   </main>
 
-  <!-- <footer class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Josué Ervino</a>.
-  </footer> -->
+    Coded by <a href="https://github.com/JosueErvino" target="_blank">Josué Ervino</a>.
+  </footer>
 </body>
 
 </html>
